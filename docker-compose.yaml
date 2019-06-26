@@ -6,6 +6,6 @@ services:
     container_name: intellipaat_pic
     restart: always
     volumes:
-      - 'https://github.com/msridhara/website.git' /var/www/html
+      - . /var/www/html
     ports:
       - "83:80"
